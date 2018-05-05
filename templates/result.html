@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="{{url_for('static', filename='CSS/style.css')}}">
+	<script type="text/javascript" src="{{ url_for('static', filename='js/script.js')}}"></script>
+</head>
+<body>
+	<h1>Welcome to the great game</h1>
+	<h2>I am thinking of a number between 1 and 100</h2>
+	<h3>Take a guess</h3>
+	<form action="/result" method="post">
+		<div class="high">Too high</div>
+		<input class="inBox" type="number" name="box">
+		<input type="submit" name="Submit">
+	</form>
+
+</body>
+</html>

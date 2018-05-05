@@ -1,0 +1,22 @@
+*{
+	text-align: center;
+}
+.inBox{
+	border: 1px solid black
+}
+
+
+div {
+	width: 300px;
+	height: 300px;
+	display: inline-block;
+}
+.high{
+background-color: red;
+}
+.low{
+background-color: blue;
+}
+.win{
+background-color: green;
+}
